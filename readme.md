@@ -25,7 +25,7 @@ Include the SDK and it's dependencies in your page:
 <script type="text/javascript" src="http://cdn.getsignalbox.com/sdks/backbone/sdk-0.1.0.js"></script>
 ```
 
-Be sure to setup the Signal Box JavaScript SDK before making any calls (this will ensure your credentials are set correctly for each request):
+Be sure to call [`SignalBox.setup`](https://github.com/signalbox/sdk-javascript#setup) before making any calls:
 
 ```javascript
 SignalBox.setup({
