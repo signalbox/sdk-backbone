@@ -1,14 +1,16 @@
 # Signal Box Backbone SDK
 
-The Signal Box Backbone SDK a provides support for storing Backbone model data in Signal Box by overriding `Backbone.sync`.
+The Signal Box Backbone SDK provides support for storing Backbone model data in Signal Box by overriding `Backbone.sync`.
 
-The sync implementation relies heavily on the [Signal Box JavaScript SDK](https://github.com/signalbox/sdk-javascript#readme) and uses `jQuery.ajax`. You may find [the Signal Box documentation site](https://docs.getsignalbox.com) useful and you'll need a [Signal Box account](https://manage.getsignalbox.com/sign-up).
+The sync implementation relies heavily on the [Signal Box JavaScript SDK](https://github.com/signalbox/sdk-javascript#readme) and uses `jQuery.ajax`.
+
+You'll need [an account](https://manage.getsignalbox.com/sign-up) to communicate with Signal Box. More information can be found on [the Signal Box documentation site](https://docs.getsignalbox.com).
 
 
 ## Contents
 
 * [Setup](#setup)
-* [Collections](#collection)
+* [Collections](#collections)
 * [Models](#models)
 
 
@@ -104,7 +106,7 @@ If you'd prefer not to extend `SignalBox.Backbone.Model` you'll need to set the 
 
 ## Specs
 
-Specs are written using Jasmine and Sinon. Running the tests should be as simple as opening `specs/index.html` in your browser.
+Specs are written using Jasmine and Sinon. Running the tests should be as simple as opening `spec/index.html` in your browser.
 
 
 ## Bugs
