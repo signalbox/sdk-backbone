@@ -40,7 +40,7 @@ $(function(){
 
       user.save({}, {
         success : function(model, attributes){
-          console.log("created: " + attributes._id);
+          console.log("created: " + model.id);
 
           user.fetch({
             success : function(model, attributes){
@@ -52,7 +52,7 @@ $(function(){
 
                   user.destroy({
                     success : function(model){
-                      console.log('destroyed: ' + model.get('_id'));
+                      console.log('destroyed: ' + model.id);
                     }
                   });
                 }
