@@ -46,7 +46,9 @@ var Bookmarks = SignalBox.Backbone.Collection({
   resource : 'bookmarks'
 });
 
-Bookmarks.fetch({
+var collection = new Bookmarks;
+
+collection.fetch({
   success : function(collection){
     console.log("success: " + collection.length + " records found.");
   }
